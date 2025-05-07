@@ -4,7 +4,7 @@ const app = express();
 app.use(express.json());
 
 app.get('/', (req, res) => {
-  res.send('CV Generator API is live buddy');
+  res.send('CV Generator API is live');
 });
 
 const PORT = process.env.PORT || 3000;
